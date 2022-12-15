@@ -1,6 +1,7 @@
-### Predict-Bike-Sharing-Demand-with-AutoGluon
-##Predict Bike Sharing Demand with AutoGluon
-#overview
+# Predict-Bike-Sharing-Demand-with-AutoGluon
+## Introduction to AWS Machine Learning Final Project
+
+## overview
 In this project, students will apply the knowledge and methods they learned in the Introduction to Machine Learning course to compete in a Kaggle competition using the AutoGluon library.
 
 Students will create a Kaggle account if they do not already have one, download the Bike Sharing Demand dataset, and train a model using AutoGluon. They will then submit their initial results for a ranking.
@@ -17,7 +18,7 @@ HTML export of the jupyter notebbook
 Markdown or PDF file of the report
 Images or additional files needed to make your notebook or report complete can be also added.
 
-#Getting Started
+## Getting Started
 Clone this template repository git clone git@github.com:udacity/nd009t-c1-intro-to-ml-project-starter.git into AWS Sagemaker Studio (or local development).
 sagemaker-studio-git1.png
 
@@ -25,12 +26,12 @@ sagemaker-studio-git2.png
 
 Proceed with the project within the jupyter notebook.
 Visit the Kaggle Bike Sharing Demand Competition page. There you will see the overall details about the competition including overview, data, code, discussion, leaderboard, and rules. You will primarily be focused on the data and ranking sections.
-# Dependencies
+## Dependencies
 Python 3.7
 MXNet 1.8
 Pandas >= 1.2.4
 AutoGluon 0.2.0 
-# Installation
+## Installation
 For this project, it is highly recommended to use Sagemaker Studio from the course provided AWS workspace. This will simplify much of the installation needed to get started.
 
 For local development, you will need to setup a jupyter lab instance.
@@ -39,7 +40,7 @@ Follow the jupyter install link for best practices to install and start a jupyte
 If you have a python virtual environment already installed you can just pip install it.
 pip install jupyterlab
 There are also docker containers containing jupyter lab from Jupyter Docker Stacks.
-# Project Instructions
+## Project Instructions
 Create an account with Kaggle.
 Download the Kaggle dataset using the kaggle python library.
 Train a model using AutoGluon’s Tabular Prediction and submit predictions to Kaggle for ranking.
